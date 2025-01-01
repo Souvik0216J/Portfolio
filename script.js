@@ -1,5 +1,5 @@
 // Countdown timer
-const targetDate = new Date().getTime() + (40 * 24 * 60 * 60 * 1000); // 30 days from now
+const targetDate = new Date("2025-02-16T00:00:00Z"); 
 
 function updateCountdown() {
     const now = new Date().getTime();
